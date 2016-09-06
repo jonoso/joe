@@ -6,13 +6,13 @@
 
         <style>
             body {
-            background-color: #ccc;
+            background-color: #cccccc;
             margin: 0;
             padding: 15px;
         }
          #container{
             width: 80%;
-            background-color: #FFF;
+            background-color: #FFFFFF;
             margin: 25px auto;
             padding: 20px;
         }
@@ -63,14 +63,34 @@
             <div id="leftsection">
                 <a href="aboutme.html" class="mylink" >
                     <img src="happy-smiley-emoticon-face-27613930.jpg" alt="smile" />
-                    <span>see smiles</span>
+                    <span>see right</span>
                 </a>
                 <a href="aboutme.html" class="mylink" >
                     <img src="happy-smiley-emoticon-face-27613930.jpg" alt="smile" />
-                    <span>see smiles</span>
+                    <span>see center</span>
                 </a>
                 <a href="aboutme.html" class="mylink" >
                     <img src="happy-smiley-emoticon-face-27613930.jpg" alt="smile" />
-                    <span>see smiles</span>
-                </a>happy-smiley-emoticon-face-27613930.jpg
+                    <span>see left</span>
+                </a>
+                <style>
+                    input:invalid{
+                        border: 2px solid blue;
+                    +
+                    }
+                    input:valid{
+                        border: 2px solid blue;
+                    }
+                </style>
+                <form>
+                    <label for="firstname">First Name</label><input id="firstname" name="first">
+                    <label for="lastname">Last Name</label><input id="lastname" name="last"><br>
+                    Password:<input type="password" id="password" name="password"><br><br>
+                    Email:<input type="email" id="email" name="email"><br><br>
+                    Gender:<input type="radio" name="gender" value="male">male<input type="radio" name="gender" value="female">female<br><br>
+                    Hobbies:<select name="hobbies">
+                    <option label="Sports" value="1"/>
+                    <option label="2">Video Games</option>
+                    <option value="3">Software Development</option>
+                </select>
 </html>
