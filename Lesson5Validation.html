@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <style>
+        .typebox{
+            height: 30px;
+            font: 18px;
+            border: 3px solid #000;
+            display: block;
+            margin-top: 5px;
+            padding-left: 5px;
+
+        }
+        label{
+            width: 150px;
+            float: left;
+            padding-top: 15px;
+        }
+        .radiogroup{
+            margin:10px;
+            float:left;
+        }
+        form{
+            width: 400px;
+        }
+        .overflowhidden{
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <form action="myaction.php" method="post">
+        <div><label>My Email</label><input class="typebox" name="theemail" type="text" placeholder="Email"/></div>
+        <div><label>First and Last Name</label><input class="typebox" type="text" placeholder="First and Last Name"/></div>
+        <div><label>Password</label><input class="typebox" type="text" placeholder="Password"/></div>
+        <div><label>Phone Number</label><input class="typebox" type="text" placeholder="P{hone Number" type="text" placeholder="(___)___ ___"/></div>
+        <div><label>Website</label><input class="typebox" type="text" placeholder="Website"/></div>
+        <div> class="overflowhidden"><lable>Gender</lable></div> class="raidogroup"><input type="raido"
+        <input type="submit" value="submit"/>
+
+    </form>
+</body>
+</html>
