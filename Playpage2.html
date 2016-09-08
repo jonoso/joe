@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>My Link About Me</title>
+
+                <style>
+                    .typebox{
+                        height: 30px;
+                        font: 18px;
+                        border: 3px solid #000;
+                        display: block;
+                        margin-top: 5px;
+                        padding-left: 5px;
+
+                    }
+                        label{
+                            width: 150px;
+                            float: left;
+                            padding-top: 15px;
+                        }
+                        .radiogroup{
+                            margin:10px;
+                            float:left;
+                        }
+                        form{
+                            width: 400px;
+                        }
+                            .overflowhidden{
+                                overflow: hidden;
+                            }
+                </style>
+        <body>
+                <form>
+                    <label for="firstname">First Name</label><input id="firstname" name="first">
+                    <label for="lastname">Last Name</label><input id="lastname" name="last"><br>
+                    Password:<input type="password" id="password" name="password"><br><br>
+                    Email:<input type="email" id="email" name="email"><br><br>
+                    Gender:<input type="radio" name="gender" value="male">male<input type="radio" name="gender" value="female">female<br><br>
+                    Hobbies:<form name="hobbies">
+                </form>
+
+        </body>
+    </head>
+</html>
